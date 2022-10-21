@@ -22,6 +22,9 @@ function HomeScreen({ navigation }) {
       
       <View style={styles.contentContainer}>
       <TouchableOpacity style={styles.btnNearbyCafe} onPress = {() => navigation.navigate('Cafe')}>
+        <Text style = {{color: 'black', fontSize: 45,}}>예약정보</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.btnNearbyCafe} onPress = {() => navigation.navigate('Cafe')}>
         <Text style = {{color: 'black', fontSize: 45,}}>주변카페</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.btnConfirmReservation} onPress = {() => navigation.navigate('Reservation')}>
@@ -75,7 +78,7 @@ const styles = StyleSheet.create({
     height: '20%', 
     borderTopWidth: 1,
     borderBottomWidth: 2,
-    borderColor: 'black',
+    borderColor: '#ccc',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'white',
