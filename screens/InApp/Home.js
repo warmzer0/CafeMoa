@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     height: '20%', 
     borderTopWidth: 2,
     borderBottomWidth: 1,
-    borderColor: 'black',
+    borderColor: '#ccc',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'white',
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     height: '20%', 
     borderTopWidth: 1,
     borderBottomWidth: 1,
-    borderColor: 'black',
+    borderColor: '#ccc',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'white',
@@ -81,5 +81,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
   }
 
-});
+}
+);
 
