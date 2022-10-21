@@ -83,4 +83,8 @@ const styles = StyleSheet.create({
 
 });
 
+<<<<<<< Updated upstream
 export default HomeScreen;
+=======
+export default HomeScreen;
+>>>>>>> Stashed changes
