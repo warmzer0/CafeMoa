@@ -15,8 +15,6 @@ const styles = StyleSheet.create({
 
   btnInfoReservation: {
     width: Dimensions.get("window").width,
-    left: "3%",
-    right: "15%",
     height: "30%",
     borderTopWidth: 2,
     borderLeftWidth: 2,
