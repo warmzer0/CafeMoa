@@ -9,6 +9,9 @@ import {
 import getHomeStyle from "../../styles/screens/HomeStyle";
 
 function HomeScreen({ navigation }) {
+  function InfoReservation() {
+    //navigation.navigate()
+  }
   function NearbyCafe() {
     //navigation.navigate()
   }
@@ -28,6 +31,16 @@ function HomeScreen({ navigation }) {
       </View>
 
       <View style={getHomeStyle.contentContainer}>
+      <TouchableOpacity
+          style={getHomeStyle.btnInfoReservation}
+          onPress={() => navigation.navigate("Reservation")}
+        >
+          <Text style={{ color: "#ccc", fontSize: 30, margin : 10}}>예약정보</Text>
+          <Text style={{ color: "#ccc", fontSize: 20, margin : 10}}>예약된 카페 :</Text>
+          <Text style={{ color: "#ccc", fontSize: 20, margin : 10}}>예약된 시간 :</Text>
+          <Text style={{ color: "#ccc", fontSize: 20, margin : 10}}>예약된 좌석 :</Text>
+
+        </TouchableOpacity>
         <TouchableOpacity
           style={getHomeStyle.btnNearbyCafe}
           onPress={() => navigation.navigate("Cafe")}
